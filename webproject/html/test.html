@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+</style>
+</head>
+<body>
+<div class="image">
+  <h1>Sofia Font</h1>
+  <p>Lorem ipsum dolor sit amet.</p>
+  <p id="Number"></p><br>
+  <img id="show" src="../images/logo/aha_logo_10x10.png" alt="sorry" height="100" width="200"><br>
+  <form action="">
+    <button onclick="return showimage()">Click Me</button>
+  </form>
+</div>
+<div>
+  <img id="showimg" src="../images/logo/aha_logo_10x10.png" alt="sorry" height="100" width="200"><br>
+</div>
+<script>
+  function showimage(){
+    document.getElementById("Number").innerHTML="hi"
+    document.getElementById("showimg").src="../images/real/banner.jpg"
+  }
+</script>
+</body>
+</html>

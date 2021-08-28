@@ -1,0 +1,67 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{
+  float: left;
+}
+.footer{
+  float: unset;
+}
+a.footer{
+  display: block;
+  color: #e71212;
+  float:none;
+  text-align:justify;
+  font-style:normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a.footer:hover{
+  background-color:#ebf58d;
+  height:auto;
+  width: 100px;
+  top: -35px;
+  bottom: -35px;
+}
+
+#nav_menu{
+  color: #ebf58d;
+  font-size:large;
+  font-weight: bold;
+  font-family:monospace;
+}
+li a{
+  display:inline-block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #e71212;
+}
+#signup_li{
+float: right;
+}
+h1{
+  color:rgb(229, 255, 0);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight:bold;
+  letter-spacing: 1px;
+  line-height: 2; 
+  text-align: center; 
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;  
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align:justify;
+}
